@@ -1,0 +1,48 @@
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#section1,
+	#section2,
+	#section3,
+    #slide1,
+    #slide2{
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+#section0{
+  background-image: url(../img/bg0.jpg);
+  
+}
+
+	/* Section styles
+  * --------------------------------------- */
+  .overlay {
+    background: rgba(255,255,255,0.65);
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    z-index: 1;
+  }
+
+  .section-title {
+    z-index: 2;
+  }
